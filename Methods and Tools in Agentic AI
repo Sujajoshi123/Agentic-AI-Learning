@@ -1,1 +1,72 @@
 
+ML is a form of AI and is the foundation of AI systems.
+
+ML - Theory and Methodology
+Agentic AI Frameworks - Practical tools that bring AI to life
+
+ML allows agents to learn from experiences independently.
+
+Types of ML models that exist:
+Supervised - leverages labelled data
+Unsupervised - explores hidden patterns and unlabelled data
+Reinforcement Learning - trains agents by rewarding them for postitive actions
+
+-------------------------------------
+
+Policy based frameworks:
+
+A framework offers a high level structure around which developers can use to develop applications.
+
+Policy framework -- consists of guidelines that control and direct actions aligning with the values and norms set by the architects, designers, developers and end users.
+
+----------------------------------
+
+Two types of policy frameworks:
+
+1. Decision-making frameworks - include ethical policies to ensure AI actions align with societal and legal standards. They ensure that the agent AI system does not break the law or upset users with destructive
+behaviours. These include oversight mechanisms.  This is the implementation of human in the loop or human-on-the-loop systems to assure that humans can intervene in AI decision making.
+2. Rule based - These specific predefined rules agentic agent systems must follow to ensure predictable and compliant behavior. Such as rule that an AI system must never injure a human being.
+3. Utility based frameworks - Utility based frameworks are conceptual frameworks that guide AI systems' design, deployment and evaluation. 
+Utility function - 
+
+utility functions. The utility function maps outcomes to numerical values, calculating their desirability. 
+The AI system uses this function to evaluate and choose the best actions based on math.
+Let's say that a security camera records an image of a person carrying an object. That object could be a weapon or a non-threatening tool, and the camera must evaluate that image to determine which one. 
+In this situation, that utility function would assign a ranking to the image, say 1 to 10, where 1 is less likely to be a weapon, and 10 is most likely.
+Then, using this formula, evaluate the potential of the person being a threat that needs to be further observed.
+
+Another important attribute of utility-based frameworks is preference modeling. 
+This means setting user preferences and integrating them into the utility function, much like the preferences you can put on your smartphone, or even your TV. 
+This maximizes utility within the agentic AI system, meaning always finding the most optimal solution. For example, the image taken by your agentic AI security camera needs to be optimized for analysis to be done before the agent makes the decision. 
+
+---------------------------------
+
+Reinforcement learning and Q learning:
+
+In reinforcement learning, a policy provides a strategy or mapping from states to actions to maximize rewards.
+
+Reinforcement learning is all about learning by interacting with an environment. 
+The agent takes action in different situations, also known as states, and receives feedback in the form of rewards or punishments.
+Agents try to maximize rewards much like people do when we get rewards for good conduct or good grades in school. 
+The agent understands that it's not desirable to get a penalty and attempts to figure out how to avoid it in the future.
+
+Q Learning:
+Q-learning is a specific type of reinforcement learning algorithm.
+It uses a table, a Q-table, to keep track of the best actions to take in each situation. The agent updates this table based on experiences, gradually learning the optimal actions to maximize its rewards. 
+
+
+How a Q Learning algorithm is developed?
+First, define the environment. This is the space where the agent interacts.
+Environment includes all possible states, actions, and rules of interaction. 
+
+Second, identify the different states that an agent can be in.
+A state is a representation of the situation or configuration of the environment at a specific point in time. 
+ For instance, the fact that it's now dark outside is an example of a state that our camera agent should understand.
+
+Third, define the set of possible actions that the agent can take,
+such as the camera changing the aperture in response to the changed state of the darkness outside or an agent charged with monitoring a jet engine triggers a fire suppression system if a fire state is detected
+
+ Fourth, establish a reward signal. 
+Rewards are numerical values the agent receives after taking an action in a specific state. 
+
+
