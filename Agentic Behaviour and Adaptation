@@ -1,1 +1,22 @@
+Environmental interaction involve the process of sensing and acting where the AI agent perceives its environment through sensors, interprets the data,
+makes decisions, and then takes action to influence the environment with those decisions.
+
+Agents leverage a feedback loop to learn, wherein the human / user can provide the feedback about a particular response of the agent ( whether its correct or not ). 
+The feedback loop allows the AI agent to reassess outcomes and refine its future responses to improve performance.
+
+Agents also communicate with each other.
+Agent-to-Agent Communication:
+1. Messages
+2. Databases
+
+Agentic AI has two significant components:
+
+Things that process data within the agents.
+Mechnanism that allow two agents to communicate, work and co-ordinate together
+
+How do Agents make decisions:
+
+PLANNING determines whether an AI system adds value or fails. Planning is crucial because it affects the success and value addition of the AI system.
+Defining a goal the AI needs to accomplish
+Sequence of actions that leads the agent to that goal state
 
